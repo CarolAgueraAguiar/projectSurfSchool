@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 30px;
+    background: #1188EE;
+    display: flex;
+    justify-content: center;
+}
+
+header p {
+    margin: 0;
+    padding-top: 0.4rem;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+nav {
+    background: #17222D;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    padding: 2rem;
+    list-style: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.banner {
+    background: url('./images/banner.png') center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.textBanner {
+    height: 400px;
+    font-family: 'Alice', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 82px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.textBanner h1 {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.form {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.form input {
+    width: 400px;
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(23, 34, 45, 0.4);
+    border-radius: 5px;
+    padding-left: 1rem;
+}
+
+.form a {
+    text-decoration: none;
+    background: #EE2211;
+    color: #FFFFFF;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    padding-top: 60px;
+}
+
+.coluna1 {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+.pranchas {
+    width: 570px;
+    height: 671px;
+    display: flex;
+    margin: auto;
+}
+
+.maps {
+    position: relative;
+    top: -125px;
+    display: flex;
+    margin: auto;
+}
+
+.como-chegar {
+    display: flex;
+    margin: auto;
+    position: relative;
+    left: -133px;
+    top: -100px;
+}
+
+.coluna2 {
+    flex: 1;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.textColuna {
+    width: 470px;
+    height: 325px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #445566;
+}
+
+.coluna2 h1 {
+    width: 454px;
+    height: 223px;
+    font-family: Alice;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 74px;
+    color: #1188EE;
+    margin: 0;
+}
+
+.containerAulas {
+    background-color: #EFF4F9;
+    width: 100%;
+}
+
+.onda {
+    position: relative;
+    display: flex;
+    margin: auto;
+    top: -33px
+}
+
+.aulas {
+    font-family: Alice;
+    width: 100%;
+    height: 83px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 82px;
+    color: #445566;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.containerGrid {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aulasGrid {
+    width: 370px;
+    height: 434px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
+    border-radius: 5px;
+}
+
+.aulasGrid h1 {
+    text-align: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: light;
+    font-size: 24px;
+    line-height: 33px;
+    color: #445566;
+}
+
+.aulasGrid ul {
+    list-style: circle;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    color: #445566;
+    padding: 0.7px;
+}
+
+.aulasGrid ul li::marker {
+    color: #EE2211;
+}
+
+.margin {
+    display: flex;
+    justify-content: center;
+}
+
+.p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p p {
+    text-align: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #445566;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+}
+
+.corDiferente {
+    color: #EE2211;
+}
+
+.surf {
+    background: url('./images/foto-quote@2x.jpg') no-repeat;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.surf h1 {
+    width: 639px;
+    height: 149px;
+    font-family: Alice;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 74px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1188EE;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+.a {
+    text-decoration: none;
+    background: #445566;
+    border-radius: 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 9px 15px 6px 15px;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -25px;
+}
+
+.icon img {
+    padding-left: 10px;
+}
+.rodape{
+    width: 100%;
+    height: 100%;
+}
+.rodape h1 {
+    height: 83px;
+    font-family: Alice;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 82px;
+    /* identical to box height */
+    color: #445566;
+    text-align: center;
+}
+.contato{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
